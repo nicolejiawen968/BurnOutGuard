@@ -1,4 +1,4 @@
-# BurnOutGuard by FourBit bb
+# BurnOutGuard by FourBit
 
 **Team:** Tan Jia Wen, Toh Xin Yi, Lim Pei Qin, Lee Sin Yee  
 **Problem Statement:** Stress & Workload Manager  
