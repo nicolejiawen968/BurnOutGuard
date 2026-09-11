@@ -327,30 +327,48 @@ Traditional productivity tools often stop at **organising and tracking**. BurnOu
 
 ### Tech Stack
 
-The team has **not finalised the technical stack yet**. This section will only be completed after the technologies have been selected for the actual build.
+We selected a lightweight web-based technology stack that is suitable for our team, supports efficient development, and can be deployed using free-tier services during the project.
 
 | Component | Selected Technology | Why We Chose It / Constraints |
 |---|---|---|
-| Frontend | To be confirmed | To be completed after team decision |
-| Backend | To be confirmed | To be completed after team decision |
-| Database | To be confirmed | To be completed after team decision |
-| APIs / Services | To be confirmed | To be completed after team decision |
-| Hosting | To be confirmed | Must support a deployable demonstration of the system |
+| **Frontend** | **Next.js + Tailwind CSS** | Next.js supports the development of a responsive and interactive web application, while Tailwind CSS allows us to create a consistent, accessible, and mobile-friendly interface efficiently. The main constraint is the team's learning curve with the Next.js project structure and component-based development. |
+| **Backend** | **Supabase** | Supabase provides backend services such as authentication, database access, and APIs without requiring us to build a separate backend server from scratch. Its free tier is suitable for our prototype, although usage is subject to free-tier limits. |
+| **Database** | **PostgreSQL (Supabase)** | PostgreSQL is suitable for storing structured data such as student profiles, tasks, workload areas, priorities, deadlines, workload scores, and adjusted plans. Using PostgreSQL through Supabase keeps the database and backend services integrated. |
+| **APIs / Services** | **Supabase API / Services** | Supabase provides the services required for communication between the Next.js application and the database. We do not require a separate external API for the core BurnOutGuard features, which keeps the system simple and reduces unnecessary dependencies. |
+| **Hosting** | **Vercel** | Vercel provides a simple deployment process for Next.js applications and can be connected to our GitHub repository. Its free tier is suitable for our project demonstration, subject to usage limits. |
+
+### Development & Collaboration Tools
+
+We plan to use **Lovable and Cursor** as development tools to support UI implementation, coding, debugging, and refinement.
+
+**GitHub** will be used for source-code management and team collaboration.
+
+These are development tools and are not part of the application's frontend or backend architecture.
 
 ### System Architecture Diagram
 
-To be added after the technical stack and system structure are confirmed.
-
-### Build Plan & Scope
-
-Our build scope will follow the core concept established during ideation. During the building phase, we plan to create a usable prototype that demonstrates the following core journey:
-
-1. Students enter responsibilities across relevant workload areas.
-2. The system analyses the student's overall workload.
-3. The system identifies possible overload.
-4. The system highlights the main pressure points.
-5. The system presents possible actions.
-6. The student can use those actions to rebalance their workload.
-7. The resulting plan creates greater space for recovery.
-
-The exact workload calculation method, recommendation logic, UI interactions, technical architecture, and optional features will be finalised during the prototype and building phases. This keeps the scope realistic while preserving the central idea of **understand -> identify -> rebalance -> recover**.
+```text
+                         Student
+                            ↓
+                  ┌──────────────────┐
+                  │      Vercel      │
+                  │    Next.js App   │
+                  │  + Tailwind CSS  │
+                  └────────┬─────────┘
+                           ↓
+                  ┌──────────────────┐
+                  │     Supabase     │
+                  │ Backend / APIs   │
+                  │ Authentication   │
+                  └────────┬─────────┘
+                           ↓
+                  ┌──────────────────┐
+                  │   PostgreSQL     │
+                  │     Database     │
+                  └──────────────────┘
+                           ↓
+              Workload Analysis & Recommendation
+                           ↓
+                  Processes workload data
+                           ↓
+                  Returns results to student
