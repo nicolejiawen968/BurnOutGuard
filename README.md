@@ -237,6 +237,8 @@ The page also includes **BurnOutBuddy**, an AI chatbot that allows students to a
 
 ![Tips and BurnOutBuddy](images/tips-burnoutbuddy.png)
 
+---
+
 ### Supporting Features
 
 Beyond the core workload-rebalancing journey, BurnOutGuard includes supporting features that connect workload management with student well-being:
