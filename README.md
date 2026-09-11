@@ -169,19 +169,59 @@ The **Weekly Workload Trend** helps students see how their workload changes over
 
 ---
 
-#### 4. Pressure Points
+## 4. What Makes It Different
 
-After selecting **View Pressure Points** from the Workload page, students are taken to Pressure Points. This page goes beyond simply showing a workload score by identifying **which workload areas are contributing most to the student's pressure**.
+BurnOutGuard is designed to go beyond a traditional to-do list, calendar, or workload tracker. Its key competitive advantage is the **closed-loop approach that helps students understand their workload, identify pressure points, take action, and see the impact of their changes**.
 
-It provides further context through **common triggers, related tasks, and an explanation of why the workload is high**. For example, the prototype highlights Mental workload as the highest area and connects it with factors such as exams and deadlines, high expectations, and overthinking.
+### 1. Holistic Student Workload View
 
-**Key purpose:** Help students understand **where their pressure comes from and what is contributing to it**, so they can make informed decisions about what to change next.
+BurnOutGuard combines **Mental, Time, Physical, Social, and Errands** into one workload view. Instead of focusing only on academic tasks, students can see how different responsibilities contribute to their overall workload.
 
-**Next step:** Students can move to **Recommended Actions** to see practical ways to respond to the identified pressure points.
+**Competitive value:** Provides a broader view of student workload than tools focused mainly on tasks, deadlines, or productivity.
 
-![Pressure Points](images/pressure-points.png)
+### 2. Pressure-Point Identification
 
----
+Instead of only showing that workload is high, BurnOutGuard identifies **where the pressure is coming from**. The Pressure Points feature highlights the highest workload areas together with **common triggers, related tasks, and reasons why an area is high**.
+
+**Competitive value:** Turns a workload score into an explanation that students can use to decide what needs to change.
+
+### 3. From Tracking to Action
+
+BurnOutGuard connects pressure points to **Recommended Actions**, such as breaking assignments into smaller tasks, rescheduling non-urgent tasks, or postponing lower-priority errands.
+
+Students can then select suitable actions and move them into **Adjust Your Plan**.
+
+**Competitive value:** Instead of simply reporting workload, BurnOutGuard guides students towards practical workload changes.
+
+### 4. Workload Rebalancing + Recovery
+
+The **Adjust Your Plan** feature allows students to actively rebalance their schedule rather than simply viewing their workload. It also includes dedicated **Recovery Time**, such as breaks and personal time.
+
+**Competitive value:** The goal is not just to complete more tasks, but to create a **more manageable and sustainable workload**.
+
+### 5. Before-and-After Results
+
+After adjustments are applied, the **Results** page compares the student's workload before and after the changes, including changes across the five workload areas and pressure points.
+
+**Competitive value:** Creates a feedback loop that shows whether the planned changes actually improve the student's workload state.
+
+### 6. BurnOutBuddy AI Support
+
+BurnOutGuard also includes **BurnOutBuddy**, an in-app AI chatbot that provides quick tips and basic well-being guidance related to stress, healthy habits, and student well-being.
+
+**Competitive value:** Complements workload management with accessible, in-app well-being guidance without making the chatbot the core of the system.
+
+### Our Key Competitive Advantage
+
+The strongest differentiator is the **combination of these features into one continuous journey**:
+
+**Understand → Identify → Recommend → Rebalance → See Results → Recover**
+
+Traditional productivity tools often stop at **organising and tracking**. BurnOutGuard goes further by helping students understand **why their workload is high, what they can change, and how their changes affect the workload**.
+
+> **Don't just track the workload. Understand it, act on it, rebalance it, and make space to recover.**
+
+*The workload values shown in the prototype are illustrative examples demonstrating the intended interaction and are not validated real-world outcomes.*
 
 #### 5. Recommended Actions
 
