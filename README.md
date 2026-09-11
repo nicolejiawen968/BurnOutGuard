@@ -133,8 +133,6 @@ The prototype is designed around the idea that students should not only see that
 
 #### 1. Home Dashboard
 
-#### 1. Home Dashboard
-
 The Home Dashboard gives students an **at-a-glance view of their workload and well-being**. It highlights the **overall workload level**, workload distribution across the five areas — **Mental, Time, Physical, Social, and Errands** — as well as **upcoming tasks and today's mood**.
 
 The **Quick Actions** provide direct access to adding tasks, viewing tasks, logging mood, and getting tips, while the workload analysis can be accessed directly from the dashboard.
