@@ -119,55 +119,155 @@ This is the original flow developed during ideation. The detailed interactions w
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [BurnOutGuard UI Prototype](./UI.pdf)
+### UI Prototype
 
-The BurnOutGuard prototype follows our original ideation flow:
+[View the BurnOutGuard UI Prototype](UI.pdf)
 
-**Input Workload -> Analyse Workload -> Detect Overload -> Identify Pressure Points -> Recommend Actions -> Rebalance Workload -> Recovery**
+The BurnOutGuard prototype translates our ideation journey into a student-focused workload management experience. The core interaction follows:
+
+**Input Workload → Analyse → Identify Pressure Points → Recommend Actions → Adjust Plan → See Results → Recovery**
+
+The prototype is designed around the idea that students should not only see that their workload is high, but should also understand what is contributing to the pressure and have practical ways to respond.
 
 ### Key Screens
 
 #### 1. Home Dashboard
 
+#### 1. Home Dashboard
+
+The Home Dashboard gives students an **at-a-glance view of their workload and well-being**. It highlights the **overall workload level**, workload distribution across the five areas — **Mental, Time, Physical, Social, and Errands** — as well as **upcoming tasks and today's mood**.
+
+The **Quick Actions** provide direct access to adding tasks, viewing tasks, logging mood, and getting tips, while the workload analysis can be accessed directly from the dashboard.
+
+**Key purpose:** Give students an immediate understanding of **how much they are carrying, where their workload is distributed, and what they can do next**.
+
 ![Home Dashboard](images/home-dashboard.png)
 
-Students can view their current overall workload, workload across the five areas, upcoming tasks, and quick actions from the dashboard.
+---
 
 #### 2. My Tasks
 
+My Tasks allows students to organise their responsibilities and connect each task to one of the five workload areas: **Mental, Time, Physical, Social, and Errands**. Each task displays its workload area and deadline, helping students see that everyday responsibilities contribute to their overall workload, not just academic tasks.
+
+Students can also filter tasks by **All, Today, This Week, or This Month**, search for specific tasks, and quickly add new responsibilities.
+
+**Key purpose:** Capture and organise the different responsibilities that contribute to a student's overall workload, providing the foundation for BurnOutGuard's workload analysis.
+
 ![My Tasks](images/my-tasks.png)
 
-Students can add and organise tasks by selecting a workload area, due date, and priority. This provides the workload information used by BurnOutGuard.
+---
 
 #### 3. Workload Overview
 
-![Workload Overview](images/workload-overview.png)
+The Workload page transforms the student's tasks into an **overall workload picture**. It shows the **overall workload level**, compares it with the previous week, and breaks the workload down across the five areas: **Mental, Time, Physical, Social, and Errands**.
 
-Students can view their overall workload, workload by area, workload trends, and upcoming deadlines to understand their current workload.
+The **Weekly Workload Trend** helps students see how their workload changes over time. The Quick Actions also provide direct access to **Pressure Points, Recommended Actions, Adjust Your Plan, and Progress**, connecting workload analysis to the next steps of the BurnOutGuard journey.
+
+**Key purpose:** Help students understand **how much they are carrying, where their workload is concentrated, and when they may need to take action.**
+
+**Next step:** Students can select **View Pressure Points** to investigate what is contributing to their workload pressure.
+
+![Workload Overview](images/workload.png)
+
+---
 
 #### 4. Pressure Points
 
+After selecting **View Pressure Points** from the Workload page, students are taken to Pressure Points. This page goes beyond simply showing a workload score by identifying **which workload areas are contributing most to the student's pressure**.
+
+It provides further context through **common triggers, related tasks, and an explanation of why the workload is high**. For example, the prototype highlights Mental workload as the highest area and connects it with factors such as exams and deadlines, high expectations, and overthinking.
+
+**Key purpose:** Help students understand **where their pressure comes from and what is contributing to it**, so they can make informed decisions about what to change next.
+
+**Next step:** Students can move to **Recommended Actions** to see practical ways to respond to the identified pressure points.
+
 ![Pressure Points](images/pressure-points.png)
 
-Students can identify which workload areas are contributing most to their current pressure and understand the factors affecting each area.
+---
 
 #### 5. Recommended Actions
 
+After identifying the student's pressure points, BurnOutGuard provides **practical actions that students can consider to reduce or manage their workload**. Recommendations are linked to specific workload areas and include actions such as breaking a large assignment into smaller tasks, rescheduling a non-urgent task, and postponing a lower-priority errand.
+
+Students can select suitable recommendations using **Add to Plan**, allowing them to carry the chosen actions into the next step of the workload-rebalancing process.
+
+**Key purpose:** Turn workload awareness into **practical, actionable changes** that students can apply to their plan.
+
+**Next step:** Selected recommendations can be reviewed and applied in **Adjust Your Plan**.
+
 ![Recommended Actions](images/recommended-actions.png)
 
-BurnOutGuard provides personalised actions based on the identified pressure points, such as rescheduling tasks, setting boundaries, taking a short break, or simplifying errands.
+---
 
 #### 6. Adjust Your Plan
 
-![Adjust Your Plan](images/adjust-plan.png)
+After selecting suitable recommendations, students can use **Adjust Your Plan** to actively rebalance their workload. The screen allows students to review their schedule, apply selected recommendations, and include dedicated **recovery time** in their revised plan.
 
-Students can select recommended actions, schedule changes, and review the expected workload improvement before applying the changes.
+The **Plan Preview** summarises the adjusted schedule, including total tasks, focused study time, break time, and personal time. Students can then select **Apply Changes & View Results** to see the impact of their adjustments.
 
-#### 7. You're Back on Track
+**Key purpose:** Help students turn recommendations into **real changes to their workload and schedule**, while creating space for recovery.
 
-![You're Back on Track](images/back-on-track.png)
+**Next step:** Students can apply their changes and view the **before-and-after results**.
 
-Students can compare their workload before and after applying the changes and see how their workload has been reduced to a more manageable level.
+![Adjust Your Plan](images/adjust-your-plan.png)
+
+---
+
+#### 7. Results
+
+After students apply changes to their plan, the Results page shows **how their workload has changed before and after the adjustments**. It provides an overall comparison as well as a breakdown across the five workload areas.
+
+The page also highlights **Pressure Points After Changes**, allowing students to see which areas have improved, while the detailed breakdown explains the changes made and how they contributed to the new workload.
+
+**Key purpose:** Show students the **impact of their workload adjustments** and help them understand whether their workload has become more manageable.
+
+**Next step:** Students can use the improved workload state as a basis for maintaining a more balanced plan and making space for recovery.
+
+*The values shown in the prototype are illustrative examples demonstrating the intended interaction.*
+
+![Results](images/results.png)
+
+---
+
+#### 8. Tips & BurnOutBuddy AI Chatbot
+
+The **Tips for a Healthier You** page provides practical guidance across **Stress Management, Time Management, Study Tips, Mental Health, and Lifestyle**. The **Recommended for You** section presents relevant tips based on the student's recent mood and workload, while students can also explore additional well-being content by category.
+
+The page also includes **BurnOutBuddy**, an AI chatbot that allows students to ask for quick tips and basic well-being guidance directly within the app.
+
+**Key purpose:** Provide students with **accessible, practical support for managing stress, developing healthier habits, and making space for recovery**.
+
+![Tips and BurnOutBuddy](images/tips-burnoutbuddy.png)
+
+### Supporting Features
+
+Beyond the core workload-rebalancing journey, BurnOutGuard includes supporting features that connect workload management with student well-being:
+
+- **Mood Journal** – Record moods and reflections through text, voice recordings, images, and tags.
+- **Mood Insights** – View mood patterns, trends, and key insights over time.
+- **Tips for a Healthier You** – Explore practical guidance across Stress Management, Time Management, Study Tips, Mental Health, and Lifestyle, including recommendations based on recent mood and workload.
+- **BurnOutBuddy AI Chatbot** – Provides quick tips and basic well-being guidance directly within the app.
+- **Profile & Settings** – Manage personal information, notifications, theme, language, and privacy and security preferences.
+
+These features complement the core workload journey by supporting **reflection, healthier habits, guidance, and recovery**.
+
+### Core User Journey
+
+**Add Workload → Analyse → Identify Pressure Points → Recommend Actions → Adjust Plan → See Results → Recovery**
+
+- **Add Workload** – Record responsibilities across Mental, Time, Physical, Social, and Errands.
+- **Analyse** – Understand overall workload and its distribution across the five areas.
+- **Identify Pressure Points** – Discover which areas contribute most to workload pressure, including common triggers and related tasks.
+- **Recommend Actions** – Receive practical actions to address identified pressure points.
+- **Adjust Plan** – Select suitable actions, rebalance responsibilities, and include recovery time.
+- **See Results** – Compare workload before and after adjustments and see changes across the five areas.
+- **Recovery** – Create realistic space for rest and recovery as part of maintaining a balanced workload.
+
+### Core Design Principle
+
+> **BurnOutGuard does not just show students that they are overloaded. It helps them understand why, decide what to change, rebalance their responsibilities, and make space for recovery.**
+
+**Understand → Identify → Act → Rebalance → Recover**
 
 ## 4. What Makes It Different
 
