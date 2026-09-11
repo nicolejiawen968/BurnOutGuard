@@ -113,7 +113,7 @@ This is the original flow developed during ideation. The detailed interactions w
 
 | Date | Mentor | Feedback Received | What Was Changed |
 |---|---|---|---|
-| [To be added] | [To be added] | [To be added after mentor consultation] | [To be added after mentor consultation] |
+| 9 September 2026, 8:55 PM | Mentor | The UI was too crowded and packed. The mentor suggested simplifying the UI and using development tools such as Supabase, Cursor, Lovable, and Next.js. | We will simplify the UI layout to reduce visual clutter and improve usability. We also selected a lightweight technology direction using Next.js, Supabase, Cursor, and Lovable to support efficient and feasible development. |
 
 ---
 
