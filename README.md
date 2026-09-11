@@ -2,8 +2,8 @@
 
 **Team:** Tan Jia Wen, Toh Xin Yi, Lim Pei Qin, Lee Sin Yee  
 **Problem Statement:** Stress & Workload Manager  
-**Video Presentation:** [Unlisted YouTube Link - To be added]  
-**Presentation Slides:** [Public Link - To be added]
+**Video Presentation:** https://youtu.be/o9naZIUtw0M?si=NqzEUid8ZA_RiIFH  
+**Presentation Slides:** https://canva.link/9nnnga4l6wxy4lz
 
 ---
 
