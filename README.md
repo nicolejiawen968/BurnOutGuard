@@ -267,6 +267,8 @@ These features complement the core workload journey by supporting **reflection, 
 
 **Understand → Identify → Act → Rebalance → Recover**
 
+---
+
 ## 4. What Makes It Different
 
 BurnOutGuard is designed to go beyond a traditional to-do list, calendar, or workload tracker. Its key competitive advantage is the **closed-loop approach that helps students understand their workload, identify pressure points, take action, and see the impact of their changes**.
