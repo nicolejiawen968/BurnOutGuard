@@ -11,7 +11,7 @@
 
 ### The Problem
 
-University students often manage multiple responsibilities at the same time, including assignments, examinations, classes, deadlines, meetings, social commitments, physical needs, and daily errands. These responsibilities can build up across different areas of student life, making it difficult for students to understand their overall workload and recognise what is contributing most to their pressure.
+University students often manage multiple responsibilities at the same time, including assignments, examinations, classes, part-time jobs, deadlines, meetings, social commitments, physical needs, and daily errands. These responsibilities can build up across different areas of student life, making it difficult for students to understand their overall workload and recognise what is contributing most to their pressure.
 
 We identified five main workload areas:
 
