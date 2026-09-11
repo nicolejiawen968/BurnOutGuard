@@ -60,54 +60,56 @@ The exact interactions will be refined during UI prototyping and the building ph
 
 ### 2.1 Ideas We Considered
 
-Our team explored several approaches before selecting BurnOutGuard. We compared each idea based on how well it addressed the student's overall workload rather than only one part of the problem.
-
-| Idea | Why It Was Kept / Dropped |
+| Idea | Why It Was Dropped / Kept |
 |---|---|
-| **BurnOutGuard (Chosen)** | Addresses overload and helps students rebalance their workload instead of only showing or tracking the problem. |
-| **Workload Dashboard (Improved)** | Shows workload across different areas, but may only show the problem without helping students decide what to do. Its visualisation concept contributed to the final idea. |
-| **Recovery Planner (Improved)** | Encourages students to make time for recovery, but does not address the causes of workload overload by itself. Recovery therefore became part of the final direction. |
-| Stress Tracker | Dropped because it only monitors stress and does not address the different sources of student workload. |
-| Mood Tracker | Dropped because it focuses on students' emotions rather than managing their overall workload. |
-| Student To-Do List | Dropped because it mainly helps students organise tasks and deadlines and does not consider the five workload areas together. |
-| Smart Calendar | Dropped because it mainly focuses on scheduling and may not address the other workload areas. |
-| Study Planner | Dropped because it mainly focuses on academic workload rather than the student's overall workload. |
+| **Workload Rebalancer (Chosen)** | Selected because it directly addresses the core problem of overloaded student workload by helping students identify pressure points, take action, and rebalance their responsibilities. |
+| **Workload Dashboard (Improved)** | Kept as part of the final concept because it provides visibility of the student's overall workload across the five areas. However, we felt that showing workload alone was not enough, so the idea evolved into a rebalancing system. |
+| **Recovery Planner (Improved)** | Kept as a supporting concept because recovery is important when managing workload. It was integrated into the workload-rebalancing process rather than being developed as a separate application. |
+| **Stress Tracker** | Dropped because it mainly tracks stress without helping students identify what is causing their workload pressure or what they can change. |
+| **Mood Tracker** | Dropped as the main concept because mood tracking alone does not directly address workload management. It was later retained as a supporting feature through the Mood Journal. |
+| **Student To-Do List** | Dropped because it is too similar to existing task-management tools and does not address the broader problem of workload overload. |
+| **Smart Calendar** | Dropped because it focuses mainly on scheduling and time management rather than understanding workload across different areas of student life. |
+| **Study Planner** | Dropped because it focuses mainly on academic planning and does not address physical, social, mental, and everyday responsibilities. |
 
 ### 2.2 Ideation Boards
 
-Our ideation process moved from understanding the causes of student overload to exploring possible solutions and developing a system that can help students rebalance their responsibilities.
+#### 1. Problem Exploration
 
-#### Problem Tree
+![Problem Exploration](images/problem-exploration.png)
+
+We began by exploring the different responsibilities students manage at the same time. This helped us recognise that student overload can come from multiple areas of daily life, rather than academic work alone.
+
+#### 2. Problem Tree
 
 ![Problem Tree](images/problem-tree.png)
 
-The problem tree shows how causes such as too many responsibilities, clashing deadlines, difficulty prioritising, and limited recovery time contribute to overloaded student workload and effects such as stress, fatigue, feeling overwhelmed, reduced productivity, and risk of burnout.
+We broke the problem down into its main causes and effects. This showed how too many responsibilities, clashing deadlines, difficulty prioritising, and limited recovery time can contribute to **overloaded student workload**, resulting in stress, fatigue, feeling overwhelmed, reduced productivity, and risk of burnout.
 
-#### Mindmap
+#### 3. Mindmap
 
 ![Mindmap](images/mindmap.png)
 
-The mindmap explores the five workload areas - Mental, Time, Physical, Social, and Errands - together with the key problems students face and what students need from a workload management solution.
+We expanded the problem into five workload areas — **Mental, Time, Physical, Social, and Errands** — and identified the main difficulties students face and what they need from a workload management solution.
 
-#### Idea Evolution
+#### 4. Idea Evolution
 
 ![Idea Evolution](images/idea-evolution.png)
 
 Our idea evolved through three main iterations:
 
-**Stress Tracker -> Workload Dashboard -> BurnOutGuard**
+**Stress Tracker → Workload Dashboard → BurnOutGuard**
 
-The Stress Tracker was too narrow because it focused only on stress. The Workload Dashboard improved the idea by showing workload across five areas, but it mainly showed the problem without helping students decide what to do. The final BurnOutGuard goes beyond tracking by helping students identify overload and take action on their overall workload.
+The **Stress Tracker** was too narrow because it focused mainly on stress. We then developed the **Workload Dashboard** to show workload across five areas, but realised that showing the problem alone was not enough. The final **BurnOutGuard** concept evolved into a workload-rebalancing system that helps students **identify pressure points, take practical action, adjust their workload, and create space for recovery**.
 
-#### User Flow
+#### 5. User Flow
 
 ![User Flow](images/user-flow.png)
 
-The current ideation flow is:
+The final user flow developed from our ideation is:
 
-**Input Workload -> Analyse Workload -> Detect Overload -> Identify Pressure Points -> Recommend Actions -> Rebalance Workload -> Recovery**
+**Input Workload → Analyse Workload → Identify Pressure Points → Recommend Actions → Adjust Plan → See Results → Recovery**
 
-This is the original flow developed during ideation. The detailed interactions within each step will be refined during UI prototyping without changing the core journey.
+This flow evolved from our initial concept into the core interaction used in the UI prototype. It guides students from understanding their workload to identifying sources of pressure, taking practical action, adjusting their plan, and seeing the impact of their changes.
 
 ### 2.3 Mentor Consultation
 
