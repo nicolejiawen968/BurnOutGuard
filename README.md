@@ -123,11 +123,11 @@ This flow evolved from our initial concept into the core interaction used in the
 
 ### UI Prototype
 
-**Primary Prototype:**  
-[View the BurnOutGuard UI Prototype (PDF)](UI.pdf)
+**Primary Prototype:** 
+[View the BurnOutGuard UI Prototype on Canva](https://canva.link/tasplqn1q8wvub6) 
 
 **Alternative Prototype:**  
-[View the BurnOutGuard UI Prototype on Canva](https://canva.link/tasplqn1q8wvub6)
+[View the BurnOutGuard UI Prototype (PDF)](UI.pdf)
 
 The BurnOutGuard prototype translates our ideation journey into a student-focused workload management experience. The core interaction follows:
 
