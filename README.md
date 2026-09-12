@@ -123,13 +123,15 @@ This flow evolved from our initial concept into the core interaction used in the
 
 ### UI Prototype
 
-[View the BurnOutGuard UI Prototype](UI.pdf)
+**Primary Prototype:**  
+[View the BurnOutGuard UI Prototype (PDF)](UI.pdf)
+
+**Alternative Prototype:**  
+[View the BurnOutGuard UI Prototype on Canva](https://canva.link/tasplqn1q8wvub6)
 
 The BurnOutGuard prototype translates our ideation journey into a student-focused workload management experience. The core interaction follows:
 
 **Input Workload → Analyse → Identify Pressure Points → Recommend Actions → Adjust Plan → See Results → Recovery**
-
-The prototype is designed around the idea that students should not only see that their workload is high, but should also understand what is contributing to the pressure and have practical ways to respond.
 
 ### Key Screens
 
